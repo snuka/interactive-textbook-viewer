@@ -1,4 +1,20 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import bundleAnalyzer from '@next/bundle-analyzer';
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/chapter-1',
+        permanent: true,
+      },
+    ];
+  },
+};
+
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === 'true',
+});
+
+export default withBundleAnalyzer(nextConfig);

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "chapter-1",
+    "title": "Introduction to Next.js",
+    "html_file": "/static-html/chapter-1.html",
+    "description": "An introductory chapter on the fundamentals of Next.js, covering its core features and benefits for modern web development."
+  },
+  {
+    "id": "chapter-2",
+    "title": "Routing and Pages",
+    "html_file": "/static-html/chapter-2.html",
+    "description": "This chapter explores the file-based routing system in Next.js, explaining how to create pages and dynamic routes."
+  },
+  {
+    "id": "chapter-3",
+    "title": "Data Fetching",
+    "html_file": "/static-html/chapter-3.html",
+    "description": "A deep dive into data fetching techniques in Next.js, including static generation (SSG) and server-side rendering (SSR)."
+  }
+]
